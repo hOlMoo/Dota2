@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical" >
+    <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/common_list_item_selector"
+                >
+                <ImageView
+                    android:id="@+id/off_item_iv"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/recom_expres_01"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    />
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/off_item_iv"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                    android:id="@+id/off_item_tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/common_global_textfirst_color"
+                    android:textSize="16sp"
+                    android:text="Alleria Windrunner"
+                    />
+                    <TextView
+                    android:id="@+id/off_item_tx_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/common_global_textsecond_color"
+                    android:textSize="12sp"
+                    android:text="你的心如利箭，在风中笔直地飞翔，我的姐姐。"
+                    android:layout_below="@+id/off_item_tv_title"
+                    android:layout_marginRight="10dp"
+                    />
+                </RelativeLayout>
+                <ImageView
+                        android:id="@+id/off_item_iv_comment"
+            		android:layout_width="20dp"
+            		android:layout_height="20dp"
+            		android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+            		android:src="@drawable/comment_icon_bg"/>
+                    <TextView
+                        android:id="@+id/off_item_tx_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toLeftOf="@+id/off_item_iv_comment"
+                        android:textSize="12sp"
+                        android:textColor="@color/common_global_textsecond_color"
+                        android:text="72跟帖"
+                        />
+            </RelativeLayout>
+
+</LinearLayout>

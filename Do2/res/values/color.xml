@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#008000</color><!--绿色 -->
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="transparent">#00000000</color>
+    <!-- 底部选项卡颜色 -->
+    <color name="tab_bg">#f2f8f8f8</color>
+    <color name="tab_selected_red">#ffeb1212</color>
+    <color name="tab_unselected_gray">#ff5f606d</color>
+    <!-- 线颜色 -->
+    <color name="line">#ffd3d3d3</color>
+    <color name="font_second_color">#7f353535</color><!-- 副要字体颜色 -->
+    <color name="chatting_bg_purecolor">#ffebebeb</color>
+    <color name="list_selected_background_color">#fff0f0f0</color><!-- #7febebeb -->
+    <color name="black_f2">#f23ec471</color><!--icon_蓝色 -->
+    <color name="black_f2_unselected">#f29fc2ab</color>
+    <!-- chatting底部栏背景 -->
+    <color name="chatting_bottom_bg_color">#ff3b3b3b</color>
+    <color name="chatting_bottom_btn_send_color">#ff35a65c</color>
+    <!-- 字体颜色 -->
+    <color name="common_global_textfirst_color">#FF000000</color> <!-- 主要字体颜色 -->
+    <color name="common_global_textsecond_color">#FF909090</color><!-- 副要字体颜色 -->
+</resources>

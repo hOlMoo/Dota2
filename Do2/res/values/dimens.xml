@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- tab相关 start -->
+	<dimen name="bottom_tab_padding_up">8dp</dimen><!-- 底部tab相隔距离 -->
+	<dimen name="bottom_tab_padding_drawable">5dp</dimen><!-- 底部tab字体离图片距离 -->
+	<dimen name="bottom_tab_font_size">12dp</dimen><!-- 底部tab字体大小 -->
+	<dimen name="global_title_tool_height">48dip</dimen><!-- 顶部tool高度 -->
+	<!-- ends -->
+	
+	<dimen name="line_height">1px</dimen><!-- 线高度 -->
+	
+	<!-- listview相关  start -->
+	<dimen name="list_global_item_normal_height">60dip</dimen><!-- listview的item正常高度 -->
+	<dimen name="list_global_item_icon_area_size">50dip</dimen><!-- listview的icon区域大小 -->
+	<dimen name="list_global_item_icon_padding">8dp</dimen><!-- listview的icon间距 -->
+	<dimen name="list_global_item_right_padding">12dp</dimen><!-- listview的icon间距 -->
+	<dimen name="list_global_item_friend_height">48dip</dimen><!-- listview的item正常高度 -->
+	<!-- ends -->
+	
+</resources>

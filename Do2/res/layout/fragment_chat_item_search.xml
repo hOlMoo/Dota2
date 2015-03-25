@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   		android:id="@+id/chat_item_search_layout"
+   		android:layout_width="fill_parent"
+        android:layout_height="41dp"
+        android:background="@color/chatting_bg_purecolor"
+        android:visibility="visible"
+        >
+        <RelativeLayout
+            android:id="@+id/chat_item_search_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/search_background"
+        	android:layout_marginTop="8dp"
+        	android:layout_marginLeft="8dp"
+        	android:layout_marginRight="8dp"
+            android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/chat_layout_search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_search"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+        	android:textColor="@color/font_second_color"
+        	android:textSize="14sp"
+        	android:layout_toRightOf="@+id/chat_layout_search_icon"
+        	android:layout_marginRight="2dp"
+        	android:layout_marginTop="-5dp"
+        	android:layout_centerVertical="true"
+            /> 
+        </RelativeLayout>    
+       <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:layout_below="@+id/chat_item_search_bg"
+        android:background="@color/chatting_bg_purecolor"/>     
+</RelativeLayout>
+

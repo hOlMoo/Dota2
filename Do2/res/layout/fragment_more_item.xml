@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_list_item_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/more_history_about"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        >
+        <ImageView
+            android:id="@+id/more_item_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/list_global_item_icon_padding"
+            android:src="@drawable/icon_history"/>
+        <TextView
+            android:id="@+id/more_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/more_item_icon"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="历史回顾"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/list_global_item_right_padding"
+            android:src="@drawable/icon_right_normal"/>
+    </RelativeLayout>
+
+</LinearLayout>

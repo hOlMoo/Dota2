@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_global_item_friend_height"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:background="@drawable/common_list_item_selector"
+    >
+
+		<RelativeLayout
+		    android:id="@+id/front"
+        	android:orientation="vertical"
+        	android:tag="front"
+        	android:background="@color/transparent"
+       	 	android:layout_width="fill_parent"
+        	android:layout_height="@dimen/list_global_item_friend_height"
+        	>
+		<RelativeLayout
+            android:id="@+id/layout_01"
+            android:layout_width="@dimen/list_global_item_icon_area_size"
+            android:layout_height="fill_parent" >
+
+            <com.Do2.android.widget.CircleImageView
+                android:id="@+id/friend_item_icon"
+                android:layout_width="@dimen/list_global_item_icon_area_size"
+                android:layout_height="@dimen/list_global_item_icon_area_size"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/list_global_item_icon_padding"
+                android:src="@drawable/head_01" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/friend_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/layout_01"
+            android:text="希恩"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/friend_item_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/layout_01"
+            android:layout_alignLeft="@+id/friend_item_title"
+            android:text="Le monde de l'annihilation."
+            android:textColor="@color/font_second_color"
+            android:textSize="12sp"
+            android:layout_below="@+id/friend_item_title"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/friend_item_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="8dp"
+            android:layout_marginRight="@dimen/list_global_item_icon_padding"
+            android:text="在线"
+            android:textColor="@color/black_f2"
+            android:textSize="12sp"
+             />
+		</RelativeLayout>
+        <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/list_global_item_friend_height"
+        android:tag="back"
+        android:layout_alignParentRight="true"
+        android:background="@color/transparent"
+         >
+        <Button
+            android:id="@+id/friend_item_delete"
+            android:layout_width="0dp"
+            android:text="删除"
+            android:textColor="@color/white"
+            android:background="@color/tab_selected_red"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

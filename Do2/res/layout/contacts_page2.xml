@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="true"  
+        android:focusableInTouchMode="true"  >
+    <ImageView
+        android:id="@+id/official_top_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/official_bg"
+        android:scaleType="centerCrop"/>
+	<TextView
+	    android:id="@+id/official_top_tx"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/official_top_iv"
+	    android:textColor="@color/common_global_textfirst_color"
+	    android:textSize="14sp"
+	    android:padding="8dp"
+	    android:text="仙剑六女主造型揭秘"/>
+	<ListView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/official_listview"
+	    android:layout_below="@+id/official_top_tx"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    />
+	</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>
